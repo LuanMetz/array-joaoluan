@@ -1,4 +1,4 @@
-# LISTA COM 5 NOMES
+# array COM 5 NOMES
 
 O projeto conciste em uma array com 5 nomes de colegas, sendo João, Amanda, Felipe, Ana e Roberto. 
 
@@ -14,20 +14,33 @@ print("Terceiro elemento:", colegas[2])     # Índice 2
 
 print("Último elemento:", colegas[4])       # Índice 4
 
-Após todo o processo, iniciei a verificação se Carla estava na lista, utlizando if na array colegas para verificar se o nome estava presente na lista, definindo com "if" para exibir uma mensagem caso o nome estivesse presente na lista
+Após todo o processo, iniciei a verificação se Carla estava entre os colegas mencionadas, utlizando if na array colegas para verificar se o nome estava presente na lista, definindo com "if" para exibir uma mensagem caso o nome estivesse presente na lista
 
-print("Carla está na lista!")
+if "Carla" in colegas:
+
+   print("Carla está na lista!")
 
 E "else" para exibir uma mensagem caso o nome não estivesse presente na lista.
 
 else:
-    print("Carla não foi encontrada na lista.")
+
+   print("Carla não foi encontrada na lista.")
+
+     O resultado deve ser igual:
+
+    Primeiro elemento: João
+    Terceiro elemento: Felipe
+    Último elemento: Roberto
+    Carla não foi encontrada na lista.
 
 
 
     Como executar o programa:
 
-Acesse o Visual Studio Code, na tela inicial clique em "New File" e importe o arquivo chamado #array. Assim, todo codigo será exibido.
+    Acesse o Visual Studio Code, na tela inicial clique em "New File" e importe o arquivo chamado #array. Assim, todo codigo será exibido.
+
+
+    
 
 
     
