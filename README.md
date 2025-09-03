@@ -1,4 +1,4 @@
-# array COM 5 NOMES
+# ARRAY COM 5 NOMES
 
 O projeto conciste em uma array com 5 nomes de colegas, sendo João, Amanda, Felipe, Ana e Roberto. 
 
